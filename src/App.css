@@ -1,82 +1,55 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+* {
+  background-color: rgb(35, 35, 36);
+}
+.App {
+  width: 100vw;
+  height: 100vh;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+h1,
+ul {
+  display: flex;
+  justify-content: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Joke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+  font-style: italic;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(1) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.Obs {
+  margin-top: 0.5px;
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
 }
 
-.card {
-  padding: 2em;
+.Info {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
 }
 
-.read-the-docs {
-  color: #888;
-}
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.JokeContainer {
+  border-left: 5px solid white;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.Container {
+  display: flex;
+  align-items: center;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(1) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.Favorite {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
 }
